@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="az">
 <head>
@@ -5,35 +6,101 @@
     <title>MedClinic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: sans-serif; background: white; color: #222; margin: 0; padding: 0; }
-        header { background: #f26522; color: white; padding: 1em; text-align: center; }
-        section { padding: 1em; }
-        footer { background: #eee; padding: 1em; font-size: 0.9em; text-align: center; }
-        .whatsapp { display: inline-block; background: #25d366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; }
+        nav {
+            background-color: #f26522;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        header {
+            background-color: #f26522;
+            color: white;
+            padding: 2em 1em;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.3em;
+        }
+        section {
+            padding: 2em 1em;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #f26522;
+            border-bottom: 2px solid #f2f2f2;
+            padding-bottom: 5px;
+        }
+        .services ul, .about p {
+            padding-left: 1em;
+            line-height: 1.8em;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 2em;
+        }
+        .contact a {
+            display: inline-block;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+        footer {
+            background: #eee;
+            padding: 1.5em 1em;
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 2em;
+        }
     </style>
 </head>
 <body>
-    <header>
+    <nav>
+        <a href="#home">Əsas Səhifə</a>
+        <a href="#services">Xidmətlər</a>
+        <a href="#about">Haqqımızda</a>
+        <a href="#contact">Əlaqə</a>
+    </nav>
+
+    <header id="home">
         <h1>MedClinic</h1>
-        <p>ATU-nun dosenti, Həkim Mehman Quliyevin 30 illik təcrübəsi ilə...</p>
-        <img src="founder.jpg" alt="Təsisçi həkim" style="max-width: 200px; border-radius: 10px;">
+        <p>ATU-nun dosenti, həkim Mehman Quliyevin 30 illik təcrübəsi ilə...</p>
     </header>
-    <section>
+
+    <section id="services">
         <h2>Xidmətlərimiz</h2>
         <ul>
-            <li>Bioqrafiya</li>
-            <li>Hematologiya</li>
-            <li>Hormonal analizlər</li>
+            <li>Biokimyəvi analizlər</li>
+            <li>Hormon analizlər</li>
+            <li>PZR testləri</li>
             <li>İnfeksiyalar</li>
-            <li>PZR</li>
-            <li>Sidik, nəcis analizləri</li>
-            <li>Onkomarkerlər və digərləri</li>
+            <li>Onkomarkerlər</li>
+            <li>Sidik və nəcis analizləri</li>
         </ul>
-        <a class="whatsapp" href="https://wa.me/994508582606">WhatsApp ilə əlaqə</a>
     </section>
+
+    <section id="about">
+        <h2>Haqqımızda</h2>
+        <p>ATU-nun tərkibində 30 il fəaliyyət göstərmiş, doktor Mehman Quliyevin rəhbərliyi ilə qurulmuş laboratoriyamız müasir tələblərə cavab verən avadanlıqlarla təchiz olunmuşdur. Peşəkar həkim heyəti və gülərüz personal ilə xidmətinizdəyik.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Əlaqə</h2>
+        <a href="https://wa.me/994508582606">WhatsApp ilə əlaqə</a>
+    </section>
+
     <footer>
-        <p>“MED CLINIC” MMC · AZ1132 Bakı şəhəri, Sabunçu rayonu, Bakıxanov qəsəbəsi, Şahxundov küçəsi, ev 2, mənzil 25</p>
-        <p><a href="privacy.html">Gizlilik siyasəti</a> · Email: biokimyevilaboratoriya@gmail.com</p>
+        “MED CLINIC” MMC · Bakı şəhəri, Nəsimi rayonu, Nəsibbəy Yusifbəyli 49B, ATU-nun arxası, Tədris Terapevtik Klinikanın yanı · Email: biokimyevilaboratoriya@gmail.com
     </footer>
 </body>
 </html>
