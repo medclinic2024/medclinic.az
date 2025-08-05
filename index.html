@@ -1,102 +1,87 @@
 
+
 <!DOCTYPE html>
 <html lang="az">
 <head>
-    <meta charset="UTF-8">
-    <title>MedClinic</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; }
-        nav {
-            background-color: #f26522;
-            padding: 1em;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        header {
-            background-color: #f26522;
-            color: white;
-            padding: 2em 1em;
-            text-align: center;
-        }
-        section {
-            padding: 2em;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            color: #f26522;
-            border-bottom: 2px solid #f2f2f2;
-            padding-bottom: 5px;
-        }
-        ul {
-            padding-left: 1em;
-            line-height: 1.8em;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 2em;
-        }
-        .contact a {
-            display: inline-block;
-            background: #25d366;
-            color: white;
-            text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 6px;
-            font-size: 1em;
-        }
-        footer {
-            background: #eee;
-            padding: 1.5em 1em;
-            text-align: center;
-            font-size: 0.9em;
-            margin-top: 2em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>MedClinic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meta‑тег для подтверждения домена Meta -->
+  <!-- замените XXXXX на реальный код из Brand Safety → Domains -->
+  <meta name="facebook-domain-verification" content="XXXXX" />
+
+  <style>
+    body{margin:0;font-family:'Segoe UI',sans-serif;background:#fff}
+    nav{background:#f26522;padding:1em;text-align:center}
+    nav a{color:#fff;text-decoration:none;margin:0 15px;font-weight:bold}
+    header{background:#f26522;color:#fff;padding:2em 1em;text-align:center}
+    section{padding:2em;max-width:900px;margin:auto}
+    h2{color:#f26522;border-bottom:2px solid #f2f2f2;padding-bottom:5px}
+    ul{padding-left:1em;line-height:1.8em}
+    .contact{text-align:center;margin-top:2em}
+    .contact a{display:inline-block;background:#25d366;color:#fff;text-decoration:none;
+               padding:12px 24px;border-radius:6px;font-size:1em}
+    footer{background:#eee;padding:1.5em 1em;text-align:center;font-size:.9em;margin-top:2em}
+    footer a{color:#f26522;text-decoration:none}
+  </style>
 </head>
 <body>
-    <nav>
-        <a href="#home">Əsas Səhifə</a>
-        <a href="#services">Xidmətlər</a>
-        <a href="#about">Haqqımızda</a>
-        <a href="#contact">Əlaqə</a>
-    </nav>
 
-    <header id="home">
-        <h1>MedClinic</h1>
-        <p>ATU-nun dosenti, həkim Mehman Quliyevin 30 illik təcrübəsi ilə...</p>
-    </header>
+  <!-- Навигация -->
+  <nav>
+    <a href="#home">Əsas Səhifə</a>
+    <a href="#services">Xidmətlər</a>
+    <a href="#about">Haqqımızda</a>
+    <a href="#contact">Əlaqə</a>
+    <a href="/privacy.html">Gizlilik</a>
+  </nav>
 
-    <section id="services">
-        <h2>Xidmətlərimiz</h2>
-        <ul>
-            <li>Biokimyəvi analizlər</li>
-            <li>Hormon analizlər</li>
-            <li>PZR testləri</li>
-            <li>İnfeksiyalar</li>
-            <li>Onkomarkerlər</li>
-            <li>Sidik və nəcis analizləri</li>
-        </ul>
-    </section>
+  <!-- Шапка -->
+  <header id="home">
+    <h1>MedClinic</h1>
+    <p>ATU‑nun dosenti, həkim Mehman Quliyevin 30 illik təcrübəsi ilə...</p>
+  </header>
 
-    <section id="about">
-        <h2>Haqqımızda</h2>
-        <p>ATU-nun tərkibində 30 il fəaliyyət göstərmiş, doktor Mehman Quliyevin rəhbərliyi ilə qurulmuş laboratoriyamız müasir tələblərə cavab verən avadanlıqlarla təchiz olunmuşdur. Peşəkar həkim heyəti və gülərüz personal ilə xidmətinizdəyik.</p>
-    </section>
+  <!-- Услуги -->
+  <section id="services">
+    <h2>Xidmətlərimiz</h2>
+    <ul>
+      <li>Biokimyəvi analizlər</li>
+      <li>Hormon analizlər</li>
+      <li>PZR testləri</li>
+      <li>İnfeksiyalar</li>
+      <li>Onkomarkerlər</li>
+      <li>Sidik və nəcis analizləri</li>
+    </ul>
+  </section>
 
-    <section id="contact" class="contact">
-        <h2>Əlaqə</h2>
-        <a href="https://wa.me/994508582606">WhatsApp ilə əlaqə</a>
-    </section>
+  <!-- О нас -->
+  <section id="about">
+    <h2>Haqqımızda</h2>
+    <p>
+      ATU‑nun tərkibində 30 il fəaliyyət göstərmiş, doktor Mehman Quliyevin rəhbərliyi ilə
+      qurulmuş laboratoriyamız müasir avadanlıqlarla təchiz olunmuşdur. Peşəkar həkim heyəti
+      və gülərüz personal ilə xidmətinizdəyik.
+    </p>
+  </section>
 
-    <footer>
-        “MED CLINIC” MMC · AZ1007 Bakı şəhəri, Nəsimi rayonu, Nəsibbəy Yusifbəyli 49B, ATU-nun arxası, Tədris Terapevtik Klinikanın yanı · Email: biokimyevilaboratoriya@gmail.com
-    </footer>
+  <!-- Контакты -->
+  <section id="contact" class="contact">
+    <h2>Əlaqə</h2>
+    <a href="https://wa.me/994508582606">WhatsApp ilə əlaqə</a>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <p>
+      “MED&nbsp;CLINIC” MMC • AZ1132 Bakı&nbsp;şəhəri, Sabunçu&nbsp;rayonu,<br>
+      Bakıxanov&nbsp;qəsəbəsi, Axundov&nbsp;küçəsi, ev 1, mənzil 25 •
+      <a href="mailto:info@medclinic.az">info@medclinic.az</a> •
+      <a href="/privacy.html">Политика конфиденциальности</a>
+    </p>
+    <p style="margin-top:.8em;">© 2025 MED CLINIC MMC • Design by HTML5 UP</p>
+  </footer>
+
 </body>
 </html>
